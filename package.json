@@ -1,0 +1,17 @@
+{
+  "name": "appionic",
+  "version": "1.0.0",
+  "description": "Backend do aplicativo",
+  "main": "index.js",
+  "type": "module",
+  "author": "Luan",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
